@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(253, 122, 122);
+  font-family: 'montserrat alternates';
+  font-weight: 500;
+}
+
+.note.new {
+  background-color: rgb(148, 81, 244);
+}
+
+textarea {
+  resize: none;
+  border: none;
+  background-color: rgb(148, 81, 244);
+  font-family: 'poppins';
+  font-size: 16px;
+  color: antiquewhite;
+  letter-spacing: 0.8px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.limit {
+  font-size: 15px;
+  font-family: 'poppins';
+  color: rgb(21, 21, 21);
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+textarea::placeholder {
+  font-family: 'poppins';
+  font-size: 16px;
+}
+
+.save {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(148, 81, 244);
+  padding: 5px 9px 5px 9px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+
+  font-family: 'poppins';
+}
+
+.save:hover {
+  background-color: rgb(252, 113, 113);
+  cursor: pointer;
+  color: rgb(31, 30, 29);
+}
+
+.note {
+  background-color: #fef68a;
+  /* margin-bottom: 12px; */
+  border-radius: 10px;
+  padding: 1rem;
+  /* //q |^reverse*/
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+white-space: pre-line;
+  overflow: hidden;
+}
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 75%;
+  padding: 10px 10px 10px 10px;
+}
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  color: rgb(79, 77, 83);
+}
+
+.dateor {
+  font-size: 15px;
+  font-family: 'poppins';
+  color: rgb(21, 21, 21);
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+#search-icon {
+  margin-right: 5px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color:rgb(253, 122, 122);
+  font-family: 'poppins';
+  font-size: 15px;
+  letter-spacing: 0.7px;
+  color: rgb(63, 62, 62);
+}
+
+.header h2{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  letter-spacing: 1.3px;
+  font-family: 'poppins';
+  color: rgb(40, 41, 41);
+}
+
+.note textarea{
+  resize: none;
+  background-color:#fef68a;
+  color: black;
+}
+
+.new textarea{
+  background-color:rgb(148, 81, 244) ;
+  color: white;
+}
