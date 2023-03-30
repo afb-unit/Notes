@@ -127,7 +127,9 @@ i:hover {
   letter-spacing: 0.7px;
   color: black;
 }
-
+.search :: placeholder{
+color:black;
+}
 .header h2{
   margin-bottom: 10px;
   margin-top: 10px;
