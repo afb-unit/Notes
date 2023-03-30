@@ -146,3 +146,7 @@ i:hover {
   background-color:rgb(148, 81, 244) ;
   color: #ffffff;
 }
+
+.new textarea :: placeholder{
+  color: rgb(255, 255, 255);
+}
