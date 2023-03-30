@@ -60,15 +60,13 @@ textarea::placeholder {
 
 .note {
   background-color: #fef68a;
-  /* margin-bottom: 12px; */
   border-radius: 10px;
   padding: 1rem;
-  /* //q |^reverse*/
   height: 195px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-white-space: pre-line;
+  white-space: pre-line;
   overflow: hidden;
 }
 
@@ -127,9 +125,11 @@ i:hover {
   letter-spacing: 0.7px;
   color: black;
 }
-.search :: placeholder{
+
+.search input :: placeholder{
 color:black;
 }
+
 .header h2{
   margin-bottom: 10px;
   margin-top: 10px;
