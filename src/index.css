@@ -147,6 +147,6 @@ i:hover {
   color: #ffffff;
 }
 
-.new textarea :: placeholder{
-  color: rgb(255, 255, 255);
+.new textarea::-webkit-input-placeholder {
+color: #fff;
 }
