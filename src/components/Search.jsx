@@ -7,7 +7,7 @@ const Search = ({ handlesearchnote }) => {
       <input
         onChange={(event) => handlesearchnote(event.target.value)}
         type="text"
-        placeholder="  type to search . . ."
+        placeholder="  type to search note . . ."
       />
     </div>
   );
